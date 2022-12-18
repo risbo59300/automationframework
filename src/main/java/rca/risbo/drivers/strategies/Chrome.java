@@ -1,4 +1,4 @@
-package rca.risbo;
+package rca.risbo.drivers.strategies;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

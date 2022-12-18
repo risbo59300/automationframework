@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70fee900-657e-4eec-b448-2c87f801d091" name="Changes" comment="Initial commit, get static strategy.">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/FrameworkProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/framework.properties" afterDir="false" />
+    <list default="true" id="70fee900-657e-4eec-b448-2c87f801d091" name="Changes" comment="Implementation dynamique de la strategy(choix du nagitateur web).">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/drivers/strategies/Chrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/drivers/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/drivers/strategies/DriverStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverStrategyImplementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/drivers/strategies/DriverStrategyImplementer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/Firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/drivers/strategies/Firefox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/FrameworkProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/utils/FrameworkProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/PhantomsJs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/drivers/strategies/PhantomsJs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671327758399</updated>
-      <workItem from="1671327760038" duration="6824000" />
+      <workItem from="1671327760038" duration="8241000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, get static strategy.">
       <created>1671397992680</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671397992680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementation dynamique de la strategy(choix du nagitateur web).">
+      <created>1671399677970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671399677970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, get static strategy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, get static strategy." />
+    <MESSAGE value="Implementation dynamique de la strategy(choix du nagitateur web)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation dynamique de la strategy(choix du nagitateur web)." />
   </component>
 </project>

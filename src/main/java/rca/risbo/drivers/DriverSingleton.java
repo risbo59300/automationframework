@@ -1,6 +1,8 @@
-package rca.risbo;
+package rca.risbo.drivers;
 
 import org.openqa.selenium.WebDriver;
+import rca.risbo.drivers.strategies.DriverStrategy;
+import rca.risbo.drivers.strategies.DriverStrategyImplementer;
 
 import java.time.Duration;
 

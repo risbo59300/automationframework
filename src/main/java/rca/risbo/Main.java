@@ -1,6 +1,8 @@
 package rca.risbo;
 
 import org.openqa.selenium.WebDriver;
+import rca.risbo.drivers.DriverSingleton;
+import rca.risbo.utils.FrameworkProperties;
 
 public class Main {
     public static void main(String[] args) {

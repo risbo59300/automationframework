@@ -1,15 +1,17 @@
-package rca.risbo;
+package rca.risbo.drivers.strategies;
+
+import rca.risbo.utils.Constants;
 
 public class DriverStrategyImplementer {
     public static DriverStrategy chooseStrategy(String strategy) {
         switch (strategy) {
-            case "Chrome":
+            case Constants.CHROME:
                 return new Chrome();
 
-            case "PhantomJs":
+            case Constants.PHANTOMJS:
                 return new PhantomsJs();
 
-            case "Firefox":
+            case Constants.FIREFOX:
                 return new Firefox();
 
             default:

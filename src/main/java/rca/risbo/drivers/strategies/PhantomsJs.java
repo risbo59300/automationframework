@@ -1,4 +1,4 @@
-package rca.risbo;
+package rca.risbo.drivers.strategies;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;

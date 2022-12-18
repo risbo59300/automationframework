@@ -1,9 +1,11 @@
-package rca.risbo;
+package rca.risbo.utils;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+
+import static rca.risbo.utils.Constants.PROP_FILE_NAME;
 
 public class FrameworkProperties {
     private String result = "";
@@ -12,14 +14,14 @@ public class FrameworkProperties {
     public String getProperty(String key){
         try {
             Properties properties = new Properties();
-            String propFileName = "framework.properties";
+            String propFileName = PROP_FILE_NAME;
 
             inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
 
             if(inputStream != null) {
                 properties.load(inputStream);
             } else {
-                throw new FileNotFoundException("The Property file has not been found");
+                throw new FileNotFoundException(Constants.FILE_NOT_FOUND_EXCEPTION_MESSAGE);
             }
 
             String propertyValue = properties.getProperty(key);
