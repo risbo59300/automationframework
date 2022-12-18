@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70fee900-657e-4eec-b448-2c87f801d091" name="Changes" comment="Initial commit, get static strategy.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverStrategyImplementer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/Firefox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/PhantomsJs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/FrameworkProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/framework.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +69,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671327758399</updated>
-      <workItem from="1671327760038" duration="5207000" />
+      <workItem from="1671327760038" duration="6824000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit, get static strategy.">
+      <created>1671397992680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671397992680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
