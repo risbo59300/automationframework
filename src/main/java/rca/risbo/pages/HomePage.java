@@ -27,12 +27,19 @@ public class HomePage {
     @FindBy(css = "#menu-item-371 > a")
     private WebElement username;
 
+    /**
+     * permet de cliquer sur le bouton sing in
+     */
     public void clickSignIn() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.elementToBeClickable(signInButton));
         signInButton.click();
     }
 
+    /**
+     * permet de reccuperer le nom de l'utilisateur
+     * @return
+     */
     public String getUsername(){
         return username.getText();
     }
