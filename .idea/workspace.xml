@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70fee900-657e-4eec-b448-2c87f801d091" name="Changes" comment="Test d'acces à la page d'accueil, click sur le bouton login et authentification.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/ShopPage.java" afterDir="false" />
+    <list default="true" id="70fee900-657e-4eec-b448-2c87f801d091" name="Changes" comment="Test l'ajout d'un élément dans le panier et de proceder à la vérification.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/CheckoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/ShopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/risbo/pages/ShopPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671327758399</updated>
       <workItem from="1671327760038" duration="8241000" />
-      <workItem from="1672081976632" duration="8834000" />
+      <workItem from="1672081976632" duration="13670000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, get static strategy.">
       <created>1671397992680</created>
@@ -93,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672094294797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test l'ajout d'un élément dans le panier et de proceder à la vérification.">
+      <created>1672096340948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672096340948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +125,7 @@
     <MESSAGE value="Implementation dynamique de la strategy(choix du nagitateur web)." />
     <MESSAGE value="Ajout du test de la page d'authentification" />
     <MESSAGE value="Test d'acces à la page d'accueil, click sur le bouton login et authentification." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test d'acces à la page d'accueil, click sur le bouton login et authentification." />
+    <MESSAGE value="Test l'ajout d'un élément dans le panier et de proceder à la vérification." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test l'ajout d'un élément dans le panier et de proceder à la vérification." />
   </component>
 </project>

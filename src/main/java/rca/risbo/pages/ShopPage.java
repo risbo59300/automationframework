@@ -1,5 +1,6 @@
 package rca.risbo.pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +20,7 @@ public class ShopPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(css = "#main > ul > li:nth-child(2) > a.button")
+    @FindBy(css = "#main > ul > li.product.type-product.post-211.status-publish.instock.product_cat-uncategorized.purchasable.product-type-simple > a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart")
     private WebElement addToCartButton;
 
     @FindBy(css = "body > nav > div.wb4wp-wrapper > div.wb4wp-right > div > a > span")
@@ -32,7 +33,7 @@ public class ShopPage {
      * Methode permettant de verifier l'ajout d'un élément dans le panier
      */
     public void addElementToCart(){
-        addToCartButton.click();
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", addToCartButton);
 
         if ( numberOfProducts.getText().contains(Constants.CART_QUANTITY) )
             System.out.println("Cart has been updated");

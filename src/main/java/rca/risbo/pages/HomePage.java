@@ -36,6 +36,12 @@ public class HomePage {
         signInButton.click();
     }
 
+    public void clickSopButton() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        wait.until(ExpectedConditions.elementToBeClickable(shopButton));
+        shopButton.click();
+    }
+
     /**
      * permet de reccuperer le nom de l'utilisateur
      * @return
